@@ -1,0 +1,40 @@
+# ---------- 构建产物（GCC / Keil / IAR 生成，勿入库） ----------
+build/
+build_*/
+*.o
+*.d
+*.crf
+*.TMP
+*.axf
+*.htm
+*.dep
+*.lnp
+*.map
+*.bin
+*.hex
+*.elf
+
+# ---------- 日志 ----------
+*.log
+build_ac6.log
+build_check.log
+
+# ---------- 编辑器 / OS 杂项 ----------
+.DS_Store
+Thumbs.db
+.inscode/
+*.uvguix.*
+*.pack
+
+# ---------- CodeBuddy 项目数据（非源码） ----------
+.codebuddy/
+
+# ---------- VSCode：保留调试配置，忽略其余 ----------
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# ---------- 官方 SDK 例程全集（体积巨大，本工程只用 driver/ 与 mcu/ 副本，故排除） ----------
+hc32f460_ddl_Rev2.2.0/
+HC32F460 Demo/

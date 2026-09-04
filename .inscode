@@ -1,0 +1,4 @@
+run = "echo 'HC32F46x 嵌入式项目 - 需要在硬件开发板上运行'"
+is_gui = false
+is_resident = false
+is_html = false

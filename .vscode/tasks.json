@@ -1,0 +1,55 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "GCC: build",
+      "type": "shell",
+      "command": "make",
+      "args": ["all"],
+      "options": { "cwd": "${workspaceFolder}/project/GCC" },
+      "problemMatcher": ["$gcc"],
+      "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "GCC: clean",
+      "type": "shell",
+      "command": "make",
+      "args": ["clean"],
+      "options": { "cwd": "${workspaceFolder}/project/GCC" },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "GCC: rebuild",
+      "type": "shell",
+      "command": "make",
+      "args": ["clean", "all"],
+      "options": { "cwd": "${workspaceFolder}/project/GCC" },
+      "group": "build",
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Start gdbserver (pyocd)",
+      "type": "shell",
+      "command": "${workspaceFolder}/project/tools/start_gdbserver.bat",
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": {
+          "regexp": "^(?!x)(x)(.*)$",
+          "file": 1,
+          "message": 2
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^\\[gdbserver\\]",
+          "endsPattern": "GDB server listening on port 3333"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "group": "debug"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+Object Totals
+
+Memory Map of the image
+
+	Load Region LR_IROM1 
+
+		Execution Region ER_IROM1 (Exec base: 0x00000000, Size: 0x0001E478, Max: 0x00080000, END)
+
+		Execution Region RW_IRAM1 (Exec base: 0x1FFF8000, Size: 0x000092F0, Max: 0x0002F000, END)
+
+Image component sizes

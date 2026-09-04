@@ -1,0 +1,4 @@
+# PyOCD 配置
+# 指定华大 HC32F460 的 CMSIS Pack，使 pyocd 能加载该芯片的 Flash 算法
+# 这样无论是命令行 pyocd 还是 VSCode(Cortex-Debug) 启动的 gdbserver 都能自动识别目标
+pack: HDSC.HC32F460.1.0.12.pack
