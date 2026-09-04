@@ -28,7 +28,7 @@
 
 ---
 
-## 开发板（本系列书籍指定硬件）
+## 开发板（本系列教程指定硬件）
 
 > 本系列**所有例程、截图、引脚定义、LED / 按键描述，都基于下面这块板**。读者若还没有合适的硬件，可自行购买——板上本身不带调试器，需在下单时**勾选 DAPLink 仿真器 + 1.14 寸彩屏**一起购买（如页面有配套选项），开箱即可与本仓库代码严格对应。
 
@@ -228,7 +228,7 @@ python project/tools/gen_image.py
 ## 9. 参考文档
 
 - [`docs/需求设计文档.md`](docs/需求设计文档.md) — 功能需求汇总、潜在优化点、从裸机 LED 到带屏设备的演进式开发设计（**需求设计总入口**）
-- [`docs/README.md`](docs/README.md) — 《HC32F460 零基础实战》导读：裸机 DDL → FreeRTOS → GUIslice 三篇教学系列及推荐阅读顺序
+- [`docs/README.md`](docs/README.md) — HC32F460 零基础实战教程导读：裸机 DDL → FreeRTOS → GUIslice 三篇教程及推荐阅读顺序
 - HC32F46x 数据手册 / 用户手册
 - 正点原子《FreeRTOS开发指南》——FreeRTOS 学习参考资料（仓库不附带原书文件）
 - FreeRTOS 官方文档
