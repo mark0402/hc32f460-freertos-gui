@@ -228,9 +228,7 @@ python project/tools/gen_image.py
 ## 9. 参考文档
 
 - [`docs/需求设计文档.md`](docs/需求设计文档.md) — 功能需求汇总、潜在优化点、从裸机 LED 到带屏设备的演进式开发设计（**需求设计总入口**）
-- [`docs/HC32F460-笔记篇/README.md`](docs/HC32F460-笔记篇/README.md) — 笔记篇索引
-  - [笔记一 · GCC 工具链与环境搭建](docs/HC32F460-笔记篇/笔记一-GCC工具链与环境搭建.md) — **环境搭建**：工具链安装、`make` 构建、FPU/Flash 避坑、VSCode 图形化编译与调试
-  - [笔记二 · 控制台组件 Console 与分层日志](docs/HC32F460-笔记篇/笔记二-控制台组件Console与分层日志.md) — Console 组件与分层日志设计
+- [`docs/README.md`](docs/README.md) — 《HC32F460 零基础实战》导读：裸机 DDL → FreeRTOS → GUIslice 三篇教学系列及推荐阅读顺序
 - HC32F46x 数据手册 / 用户手册
 - 正点原子《FreeRTOS开发指南》——FreeRTOS 学习参考资料（仓库不附带原书文件）
 - FreeRTOS 官方文档
