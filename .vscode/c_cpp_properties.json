@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "name": "HC32F460 GCC",
+      "compilerPath": "C:/ProgramData/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe",
+      "compilerArgs": [
+        "-mcpu=cortex-m4",
+        "-mthumb",
+        "-mfloat-abi=softfp",
+        "-mfpu=fpv4-sp-d16"
+      ],
+      "intelliSenseMode": "gcc-arm",
+      "cStandard": "c99",
+      "cppStandard": "c++17",
+      "defines": [
+        "HC32F46x",
+        "USE_DEVICE_DRIVER_LIB",
+        "DEBUG"
+      ],
+      "includePath": [
+        "${workspaceFolder}/project/source",
+        "${workspaceFolder}/project/source/guislice",
+        "${workspaceFolder}/driver/inc",
+        "${workspaceFolder}/mcu/GCC/CMSIS/Core/Include",
+        "${workspaceFolder}/mcu/common",
+        "${workspaceFolder}/project/FreeRTOS",
+        "${workspaceFolder}/project/FreeRTOS/include",
+        "${workspaceFolder}/project/FreeRTOS/portable/GCC",
+        "${workspaceFolder}/project/FreeRTOS-Plus/CLI",
+        "${workspaceFolder}/project/User",
+        "${workspaceFolder}/GUIslice-master/src",
+        "${workspaceFolder}/GUIslice-master/src/elem"
+      ]
+    }
+  ],
+  "version": 4
+}
