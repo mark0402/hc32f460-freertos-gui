@@ -232,6 +232,7 @@ python project/tools/gen_image.py
   - [笔记一 · GCC 工具链与环境搭建](docs/HC32F460-笔记篇/笔记一-GCC工具链与环境搭建.md) — **环境搭建**：工具链安装、`make` 构建、FPU/Flash 避坑、VSCode 图形化编译与调试
   - [笔记二 · 控制台组件 Console 与分层日志](docs/HC32F460-笔记篇/笔记二-控制台组件Console与分层日志.md) — Console 组件与分层日志设计
 - HC32F46x 数据手册 / 用户手册
+- 正点原子《FreeRTOS开发指南》——FreeRTOS 学习参考资料（仓库不附带原书文件）
 - FreeRTOS 官方文档
 - GUIslice 官方 Wiki
 
@@ -245,4 +246,3 @@ python project/tools/gen_image.py
   - USB 库：`usb_lib/` —— 原厂 / 库许可；
   - 中间件：`midware/`（FatFs、w25qxx、wm8731、sd_card 等）—— 各自原许可；
   - LwBTN（轻量按键库，含 `lwbtn.c/.h`、`lwbtn_opt.h`、`lwbtn_opts.h`，位于 `project/source/lwbtn/`）：Tilen MAJERLE 原许可（MIT）。
-- 文档 `docs/FreeRTOS开发指南_V1.10.pdf` 为第三方资料，版权归原作者所有，请勿视为本仓库内容。

@@ -24,16 +24,13 @@ build_check.log
 Thumbs.db
 .inscode/
 *.uvguix.*
-*.pack
 
 # ---------- CodeBuddy 项目数据（非源码） ----------
 .codebuddy/
 
-# ---------- VSCode：保留调试配置，忽略其余 ----------
-.vscode/*
-!.vscode/launch.json
-!.vscode/tasks.json
-!.vscode/extensions.json
+# ---------- VSCode：整体提交，保证克隆即可 F5 一键调试 ----------
+# .vscode/ 下 launch.json / tasks.json / settings.json / c_cpp_properties.json 全部纳入版本控制
+# （HDSC 设备包 .pack 也随仓库提交，Keil 设备支持/调试用）
 
 # ---------- 官方 SDK 例程全集（体积巨大，本工程只用 driver/ 与 mcu/ 副本，故排除） ----------
 hc32f460_ddl_Rev2.2.0/
